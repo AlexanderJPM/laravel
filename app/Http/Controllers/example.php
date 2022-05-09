@@ -13,7 +13,7 @@ class example extends Controller
      */
     public function index()
     {
-        $alumnos = ["Alexander", "Alexander", "Alexander"];
+        $alumnos = ["Wilton", "Alexander", "Alexander"];
         return view("galeria", compact("alumnos"));
     }
 
